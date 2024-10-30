@@ -1,5 +1,5 @@
 # SQLite Command Line Tool with Rust
-[![CICD](https://github.com/nogibjj/mona-saeed-sqlite-rust/actions/workflows/CI.yml/badge.svg)](https://github.com/nogibjj/mona-saeed-sqlite-rust/actions/workflows/CI.yml)
+[![CICD](https://github.com/nogibjj/mona-saeed-individual-2/actions/workflows/CI.yml/badge.svg)](https://github.com/nogibjj/mona-saeed-individual-2/actions/workflows/CI.yml)
 
 ## Overview
 
@@ -32,3 +32,12 @@ run `sqlite -h` to see available options
 ## Example Usage
 
 ![alt text](2024-10-24.png)
+
+### Use of GitHub Copilot and Other Language Models
+
+In this project, I utilized GitHub Copilot along with ChatGPT to enhance my coding process. These tools were invaluable in multiple areas:
+
+1. **Code Suggestions**: GitHub Copilot provided helpful autocomplete suggestions for key parts of the project, including SQL database operations, CRUD methods, and error handling in Rust. This saved me time and reduced repetitive coding efforts.
+2. **Debugging Assistance**: When I encountered formatting issues and errors (such as during the `make format` step), I consulted ChatGPT to interpret error messages and receive targeted advice on resolving them.
+3. **Optimizing Code Structure**: GitHub Copilot and ChatGPT offered recommendations on structuring code for readability and efficiency. This included suggestions on how to modularize functions and best practices for using Rust’s `conn.execute` method.
+4. **Markdown and Syntax Support**: For markdown formatting and Rust syntax questions, I used ChatGPT to ensure the README and code met project requirements and adhered to Rust's conventions.
