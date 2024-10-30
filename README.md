@@ -11,10 +11,11 @@ The sqlite is a command line utility designed to perform CRUD (Create, Read, Upd
 - **query**: Execute custom SQL queries to retrieve data from the database.
 - **Delete**: Drop tables or delete records from the database.
 - **Load Data**: Load data from the `births.csv` file into the SQLite database.
+- **Update**: Update a certain row in the database.
 
 ## Prerequisites
 
-- Rust installed on your machine. You can follow the instructions [here](https://www.rust-lang.org/tools/install).
+- Rust installed on your machine. You can follow the instructions [here](https://www.rust-lang.org/tools/install). Also check this [readme file](https://github.com/johncoogan53/Rust_SQLite/blob/main/README.md)
 
 ## Installation
 

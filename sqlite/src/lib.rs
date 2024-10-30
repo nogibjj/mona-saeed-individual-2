@@ -78,7 +78,10 @@ pub fn load_data_from_csv(
         let day_of_week: i64 = record[3].parse().expect("Failed to parse day_of_week");
         let births: i64 = record[4].parse().expect("Failed to parse births");
 
-        conn.execute(&insert_query, params![year, month, date_of_month, day_of_week, births])?;
+        conn.execute(
+            &insert_query,
+            params![year, month, date_of_month, day_of_week, births],
+        )?;
     }
 
     println!(
@@ -99,13 +102,13 @@ pub fn update_table(
         "UPDATE {} SET {} WHERE {};",
         table_name, set_clause, condition
     );
-    
+
     let affected_rows = conn.execute(&update_query, [])?;
-    
+
     println!(
         "Successfully updated {} row(s) in table '{}'.",
         affected_rows, table_name
     );
-    
+
     Ok(())
 }
