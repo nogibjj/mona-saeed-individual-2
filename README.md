@@ -1,6 +1,9 @@
 # SQLite Command Line Tool with Rust
 [![CICD](https://github.com/nogibjj/mona-saeed-individual-2/actions/workflows/CI.yml/badge.svg)](https://github.com/nogibjj/mona-saeed-individual-2/actions/workflows/CI.yml)
 
+## Demo Video
+[YouTube Video](https://youtu.be/EP5k4l1SK3M)
+
 ## Overview
 
 The sqlite is a command line utility designed to perform CRUD (Create, Read, Update, Delete) operations on the `births.csv` file included in the data folder. This tool allows users to manage the dataset effectively through various command line commands.
